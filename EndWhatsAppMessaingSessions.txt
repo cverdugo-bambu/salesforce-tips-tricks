@@ -1,0 +1,4 @@
+I have used a combination of salesforce actions and einstein bots to finish session. 
+Create logic in einstein bot, for example End Chat for All incoming sessions. 
+
+Have scheduled flow in salesforce that gets all messaging sessions you want to end. Use the "Route to 'Specific Bot" default actions. Do a for loop within flow to send the messaging session id as the recordid variable within the Route action
